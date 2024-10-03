@@ -1,1 +1,5 @@
-﻿_site
+_site
+.Rproj.user
+**/*.Rmd
+**/.Rhistory
+**/*.Rproj
