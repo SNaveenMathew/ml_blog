@@ -10,5 +10,15 @@ In this article, I will attempt to look at linear regression through a different
 
 ### The Mathematics
 
-Linear regression has the form $y = \beta_0 + \beta_1*x_1 + \beta_2*x_2 + ... + \beta_n*x_n$ for which the conditional mean is estimated as $\hat{y} = b_0 + b_1*x_1 + b_2*x_2 + ... + b_n*x_n$. The ordinary least square solution is obtained by minimizing $\sum_{\forall i}(\hat{y[i]}-y[i])^2$
+Linear regression has the form 
+
+$$y = \beta_0 + \beta_1*x_1 + \beta_2*x_2 + ... + \beta_n*x_n$$
+
+The conditional mean is estimated as
+
+$$\hat{y} = b_0 + b_1*x_1 + b_2*x_2 + ... + b_n*x_n$$
+
+The ordinary least square solution is obtained by minimizing
+
+$$\sum_{\forall i}(\hat{y[i]}-y[i])^2$$
 
