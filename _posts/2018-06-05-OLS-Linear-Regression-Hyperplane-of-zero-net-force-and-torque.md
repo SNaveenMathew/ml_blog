@@ -38,7 +38,7 @@ $$\sum_{\forall i} \bar{y}-y[i] = 0 \tag{Equation 1}$$
 
 ### Intuition
 
-![](regressionfit.gif)
+![](data/regressionfit.gif)
 
 Let’s take a step back and look at these results from a different lens. Let us consider aan 'initial' hyperplane that passes through $y=\bar{y}$ and has $b_1 = b_2 = … = b_n = 0$. We know that $\hat{y}[i] — y[i]$ is the prediction error for the $i^{th}$ training example after substituting in equation 0. Let’s assume the error terms to be synonymous to force. Therefore, $error*x$ is synonymous to torque (this is a loose definition. 
 To be more rigorous, the product should be defined more explicitly).
