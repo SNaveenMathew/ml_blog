@@ -10,7 +10,7 @@ In this article, I will attempt to look at linear regression through a different
 
 ### The Mathematics
 
-Linear regression has the form $y = \beta_0 + \beta_1*x_1 + \beta_2*x_2 + ... + \beta_n*x_n$
+Linear regression has the form \\(y = \beta_0 + \beta_1*x_1 + \beta_2*x_2 + ... + \beta_n*x_n\\)
 
 The conditional mean is estimated as
 
