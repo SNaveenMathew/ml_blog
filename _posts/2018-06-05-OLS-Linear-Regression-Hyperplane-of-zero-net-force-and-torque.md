@@ -20,5 +20,12 @@ $$\hat{y} = b_0 + b_1*x_1 + b_2*x_2 + ... + b_n*x_n$$
 
 The ordinary least square solution is obtained by minimizing
 
-$$\sum_{\forall i}(\hat{y[i]}-y[i])^2$$
+$$\sum_{\forall i}(\hat{y}[i]-y[i])^2$$
 
+We apply calculus to the optimization problem by differentiating with respect to $b$ and setting the result equal to $0$. For each component $j$ we get:
+
+$$\sum_{\forall i} (\hat{y}[i]-y[i])*x[i][j]=0$$
+
+Substituting $j=0$ in the above equation for the intercept, we get:
+
+$$\sum_{\forall i} \hat{y}[i]-y[i] = 0$$
